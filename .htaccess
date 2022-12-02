@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^$ content.php? [L]
+
+Options All -Indexes
