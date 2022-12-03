@@ -27,8 +27,6 @@
     }
 
 
-
-
     if ($id_kolam == 1) {
         if ($kapasitas <= 0) {
             $_SESSION["status"] = 'warning';

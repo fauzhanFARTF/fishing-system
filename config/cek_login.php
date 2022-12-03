@@ -21,16 +21,16 @@ if ($level == 'Admin') {
                 $_SESSION["status"] = 'success';
                 $_SESSION["pesan"] = 'Selamat datang '. $username;
 
-                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'pemancingan/admin/admin.php?halaman=awal">';
+                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'fishing-system/admin/admin.php?halaman=awal">';
 
             } else {
                 echo "<script>window.alert('Username atau Password anda salah.');</script>";
-                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'pemancingan/admin/">';
+                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'fishing-system/admin/">';
             }
         } else {
 
             echo "<script>window.alert('Anda Belum Terdaftar.');</script>";
-            echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'pemancingan/admin/">';
+            echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'fishing-system/admin/">';
 
         }
     }
@@ -54,16 +54,16 @@ if ($level == 'member') {
 
                 $_SESSION["status"] = 'success';
                 $_SESSION["pesan"] = 'Selamat datang '. $username .' !';
-                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'pemancingan/page/member.php">';
+                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'fishing-system/page/member.php">';
 
             }
             else {
                 echo "<script>window.alert('Username atau Password anda salah.');</script>";
-                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'pemancingan/">';
+                echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'fishing-system/">';
             }
         } else {
             echo "<script>window.alert('Anda Belum Terdaftar');</script>";
-            echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'pemancingan/">';
+            echo '<META HTTP-EQUIV="REFRESH" CONTENT = "0; URL='.$domain.'fishing-system/">';
         }
 }
 

@@ -130,7 +130,7 @@ $query = mysqli_query($conn, "SELECT * FROM td_pesanan JOIN tm_user ON td_pesana
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-sm-4">Quantity :</label>
+                        <label class="control-label col-sm-4">Jumlah Pengunjung :</label>
                         <div class="col-sm-6">
                             <select class="form-control" name="jml_org" id="jml_org" required>
                                 <option>--Jumlah Pengunjung--</option>

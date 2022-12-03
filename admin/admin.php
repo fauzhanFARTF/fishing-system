@@ -60,7 +60,7 @@ font-size: 16px;"> &nbsp; <a href="../config/loguot.php" class="btn btn-danger s
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
                     <li class="text-center">
-                        <img src="../admin/assets/img/fishing-logo1.png" class="user-image img-responsive" />
+                        <!-- <img src="../admin/assets/img/fishing-logo1.png" class="user-image img-responsive" /> -->
                     </li>
 
                     <li>
@@ -93,7 +93,7 @@ font-size: 16px;"> &nbsp; <a href="../config/loguot.php" class="btn btn-danger s
                         <a href="?halaman=manajemen_pesanan"><i class="fa fa-envelope-o fa-3x"></i> Pesanan</a>
                     </li> -->
                     <li>
-                        <a href="?halaman=manajemen_konfirmasi"><i class="fa fa-check-circle fa-3x"></i> Konfirmasi <span class="badge badge-light" id="notif"></span></a>
+                        <a href="?halaman=manajemen_konfirmasi"><i class="fa fa-check-circle fa-3x"></i> Pembayaran <span class="badge badge-light" id="notif"></span></a>
                     </li>
                     <li>
                         <a href="?halaman=manajemen_laporan"><i class="fa fa-file fa-3x"></i> Laporan</a>

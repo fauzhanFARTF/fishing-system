@@ -62,18 +62,9 @@ if (empty($dt1) && empty($dt2)) {
                 <tbody>
                     <tr>
                         <td>
-                            <img src="..\..\..\admin\assets\img\fishing-logob.png" width="50" height="70" style="margin-top: 20px;">
+                            <!-- <img src="..\..\..\admin\assets\img\fishing-logob.png" width="50" height="70" style="margin-top: 20px;"> -->
                             <h4>PEMANCINGAN PERSADA</h4>
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Jl. Laos Perumahan Pasar Kemis, Kabupaten Tangerang
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>Phone: 081210252638</td>
                     </tr>
                 </tbody>
             </table>
