@@ -48,19 +48,11 @@ $id_kol = $list['id_kolam'];
 
     <div class='row-fluid'>
         <div class='col-md-8'>
-            <img src="..\..\..\admin\assets\img\fishing-logob.png" width="50" height="70" style="margin-top: 20px;">
+            <!-- <img src="..\..\..\admin\assets\img\fishing-logob.png" width="50" height="70" style="margin-top: 20px;"> -->
             <table class=''>
                 <h4 style="padding-top: 1px;">PEMANCINGAN PERSADA</h4>
                 <tbody>
-                    <tr>
-                        <td>
-                        Jl. Laos Perumahan Pasar Kemis, Kabupaten Tangerang
-                        </td>
-                    </tr>
 
-                    <tr>
-                        <td>Phone: 081210252638</td>
-                    </tr>
                 </tbody>
             </table>
         </div>
